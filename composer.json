@@ -1,5 +1,5 @@
 {
-  "name": "mar3q/httpclient",
+  "name": "mar3q/http-client-php-example",
   "version": "0.1.0",
   "license": "MIT",
   "type": "library",
@@ -22,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Mar3q\\HttpClient\\": "src/"
+      "Mar3q\\HttpClientPhpExample\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Mar3q\\HttpClient\\Tests\\": "tests/"
+      "Mar3q\\HttpClientPhpExample\\Tests\\": "tests/"
     }
   },
   "scripts": {
