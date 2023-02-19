@@ -4,7 +4,6 @@
 
 ```bash
 composer require mar3q/http-client-php-example
-composer install
 ```
 
 
