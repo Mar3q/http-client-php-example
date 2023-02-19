@@ -11,6 +11,8 @@ composer install
 ### How to use client by examples :
 
 ```php
+use Mar3q\HttpClientPhpExample\Client\Client;
+
 $client = new Client();
 $client->get('https://localhost', ['param' => 'value'])
 $data = $response->getData();
@@ -18,6 +20,9 @@ $data = $response->getData();
 
 ### How to customize client :
 ```php
+use Mar3q\HttpClientPhpExample\Client\Client;
+use Mar3q\HttpClientPhpExample\Request\Config;
+
 //create config
 $config = new Config();
 //add header
@@ -38,6 +43,9 @@ $data = $response->getData();
 
 ### How to JWT auth example:
 ```php
+use Mar3q\HttpClientPhpExample\Client\Client;
+use Mar3q\HttpClientPhpExample\Request\Config;
+
 $client = new Client((new Config())->setBaseUri('https://localhost'));
 
 $response = $client->post('/api/login', ['param' => 'value'], json_encode([
