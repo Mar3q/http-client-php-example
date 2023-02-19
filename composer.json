@@ -17,7 +17,6 @@
     "ext-curl": "*"
   },
   "require-dev": {
-    "symfony/var-dumper": "^6.2",
     "phpunit/phpunit": "^9.5"
   },
   "autoload": {
