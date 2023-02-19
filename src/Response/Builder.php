@@ -1,9 +1,9 @@
 <?php
 
-namespace Mar3q\HttpClient\Response;
+namespace Mar3q\HttpClientPhpExample\Response;
 
 use CurlHandlel;
-use Mar3q\HttpClient\Util\Utils;
+use Mar3q\HttpClientPhpExample\Util\Utils;
 
 class Builder
 {

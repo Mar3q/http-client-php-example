@@ -1,10 +1,9 @@
 <?php
 
-namespace Mar3q\HttpClient\Exception;
+namespace Mar3q\HttpClientPhpExample\Exception;
 
 class ClientException extends \RuntimeException
 {
-
     /**
      * @param \Throwable $throwable
      *

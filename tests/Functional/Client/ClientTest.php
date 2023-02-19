@@ -1,12 +1,12 @@
 <?php
 
-namespace Mar3q\HttpClient\Tests\Functional\Client;
+namespace Mar3q\HttpClientPhpExample\Tests\Functional\Client;
 
-use Mar3q\HttpClient\Client\Client;
-use Mar3q\HttpClient\Request\Config;
-use Mar3q\HttpClient\Request\CurlOption;
-use Mar3q\HttpClient\Request\Header;
-use Mar3q\HttpClient\Tests\Functional\TestEnvironment;
+use Mar3q\HttpClientPhpExample\Client\Client;
+use Mar3q\HttpClientPhpExample\Request\Config;
+use Mar3q\HttpClientPhpExample\Request\CurlOption;
+use Mar3q\HttpClientPhpExample\Request\Header;
+use Mar3q\HttpClientPhpExample\Tests\Functional\TestEnvironment;
 use PHPUnit\Framework\TestCase;
 
 class ClientTest extends TestCase

@@ -1,12 +1,12 @@
 <?php
 
-namespace Mar3q\HttpClient\Handler;
+namespace Mar3q\HttpClientPhpExample\Handler;
 
 use CurlHandle;
-use Mar3q\HttpClient\Exception\ClientException;
-use Mar3q\HttpClient\Request\Request;
-use Mar3q\HttpClient\Response\Builder;
-use Mar3q\HttpClient\Response\Response;
+use Mar3q\HttpClientPhpExample\Exception\ClientException;
+use Mar3q\HttpClientPhpExample\Request\Request;
+use Mar3q\HttpClientPhpExample\Response\Builder;
+use Mar3q\HttpClientPhpExample\Response\Response;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

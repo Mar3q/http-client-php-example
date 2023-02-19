@@ -1,6 +1,6 @@
 <?php
 
-namespace Mar3q\HttpClient\Request;
+namespace Mar3q\HttpClientPhpExample\Request;
 
 class Request extends \GuzzleHttp\Psr7\Request
 {
