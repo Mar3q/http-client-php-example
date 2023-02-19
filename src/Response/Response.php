@@ -1,6 +1,6 @@
 <?php
 
-namespace Mar3q\HttpClient\Response;
+namespace Mar3q\HttpClientPhpExample\Response;
 
 use Psr\Http\Message\StreamInterface;
 

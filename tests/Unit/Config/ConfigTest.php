@@ -1,11 +1,11 @@
 <?php
 
-namespace Mar3q\HttpClient\Tests\Unit\Config;
+namespace Mar3q\HttpClientPhpExample\Tests\Unit\Config;
 
-use Mar3q\HttpClient\Request\Config;
-use Mar3q\HttpClient\Request\CurlOption;
-use Mar3q\HttpClient\Request\Header;
-use Mar3q\HttpClient\Tests\Functional\TestEnvironment;
+use Mar3q\HttpClientPhpExample\Request\Config;
+use Mar3q\HttpClientPhpExample\Request\CurlOption;
+use Mar3q\HttpClientPhpExample\Request\Header;
+use Mar3q\HttpClientPhpExample\Tests\Functional\TestEnvironment;
 use PHPUnit\Framework\TestCase;
 
 class ConfigTest extends TestCase

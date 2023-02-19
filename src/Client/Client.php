@@ -1,12 +1,12 @@
 <?php
 
-namespace Mar3q\HttpClient\Client;
+namespace Mar3q\HttpClientPhpExample\Client;
 
-use Mar3q\HttpClient\Exception\ClientException;
-use Mar3q\HttpClient\Handler\CurlHandler;
-use Mar3q\HttpClient\Request\Builder;
-use Mar3q\HttpClient\Request\Config;
-use Mar3q\HttpClient\Response\Response;
+use Mar3q\HttpClientPhpExample\Exception\ClientException;
+use Mar3q\HttpClientPhpExample\Handler\CurlHandler;
+use Mar3q\HttpClientPhpExample\Request\Builder;
+use Mar3q\HttpClientPhpExample\Request\Config;
+use Mar3q\HttpClientPhpExample\Response\Response;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestInterface;
 

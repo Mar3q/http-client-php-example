@@ -1,6 +1,6 @@
 <?php
 
-namespace Mar3q\HttpClient\Request;
+namespace Mar3q\HttpClientPhpExample\Request;
 
 use GuzzleHttp\Psr7\Utils;
 

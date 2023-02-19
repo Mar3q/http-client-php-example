@@ -1,5 +1,13 @@
 # http-client-php-example
 
+### Install package :
+
+```bash
+composer require mar3q/http-client-php-example
+composer install
+```
+
+
 ### How to use client by examples :
 
 ```php

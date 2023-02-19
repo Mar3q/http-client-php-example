@@ -1,6 +1,6 @@
 <?php
 
-namespace Mar3q\HttpClient\Tests\Functional;
+namespace Mar3q\HttpClientPhpExample\Tests\Functional;
 
 class TestEnvironment
 {

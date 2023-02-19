@@ -1,9 +1,9 @@
 <?php
 
-namespace Mar3q\HttpClient\Tests\Unit\Client;
+namespace Mar3q\HttpClientPhpExample\Tests\Unit\Client;
 
-use Mar3q\HttpClient\Client\Client;
-use Mar3q\HttpClient\Exception\ClientException;
+use Mar3q\HttpClientPhpExample\Client\Client;
+use Mar3q\HttpClientPhpExample\Exception\ClientException;
 use PHPUnit\Framework\TestCase;
 
 class ClientTest extends TestCase
